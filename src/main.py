@@ -1,8 +1,14 @@
-# Indentation and conditionals 
+# Python executes a code block
+# when there is an indentation below a line of code.
+# Also, if you write an if statement without including 
+# code underneath, Python throws an exception error.
+# In an if statement, python looks for the indented 
+# code to execute.
 
-bot_height = 12
-bot_jr_height = 14
-if bot_height > bot_jr_height:
-    print("Hey Bot Jr, I'm taller than you!") 
+price = 15
+
+if price < 10:
+    print("I want the food")
 else:
-    print('Hey Bot, I may be younger, but I am taller.')
+    print("I'll get some more change and purchase the food then")
+    
