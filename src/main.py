@@ -1,5 +1,5 @@
-# Python Practice
+# Variables
 
-# Math - addition 
-
-print(5 + 3)
+ironMan = 5 
+spiderMan = 3 
+print(ironMan + spiderMan)
