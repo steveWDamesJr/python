@@ -1,21 +1,8 @@
-# Modulo and Variables
+# Indentation and conditionals 
 
-
-# declared Variables
-cakes = 50
-students = 24
-
-no_of_cakes_per_student = cakes / students
-cakes_remaining = cakes % students
-
-
-x = 48 
-y = 7 
-remainder = x % y 
-
-# Print Variables 
-print(remainder)
-
-print(no_of_cakes_per_student)
-
-print(cakes_remaining)
+bot_height = 12
+bot_jr_height = 14
+if bot_height > bot_jr_height:
+    print("Hey Bot Jr, I'm taller than you!") 
+else:
+    print('Hey Bot, I may be younger, but I am taller.')
