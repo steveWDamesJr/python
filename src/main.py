@@ -1,6 +1,5 @@
-# Save to a new variable
+# Using Modulo
 
-ironMan = 5 
-spiderMan = 3 
-total = ironMan + spiderMan 
-print(total)
+print(19 % 2)
+
+print(17 % 3)
