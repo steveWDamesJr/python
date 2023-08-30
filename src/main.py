@@ -1,5 +1,6 @@
-# Variables
+# Save to a new variable
 
 ironMan = 5 
 spiderMan = 3 
-print(ironMan + spiderMan)
+total = ironMan + spiderMan 
+print(total)
