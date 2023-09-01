@@ -1,14 +1,8 @@
-# Python executes a code block
-# when there is an indentation below a line of code.
-# Also, if you write an if statement without including 
-# code underneath, Python throws an exception error.
-# In an if statement, python looks for the indented 
-# code to execute.
+# This is greater than, lesser than comparison
 
-price = 15
-
-if price < 10:
-    print("I want the food")
+jennifer_money = 12000 
+julia_money = 400 
+if jennifer_money > julia_money:
+    print('Jennifer, great job saving money') 
 else:
-    print("I'll get some more change and purchase the food then")
-    
+    print('Julia, do you need advice in sacing money?')
