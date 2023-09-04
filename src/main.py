@@ -1,8 +1,10 @@
-# This is greater than, lesser than comparison
+# If we want more than one condition ro be true,
+# we use the and keyword.
 
-jennifer_money = 12000 
-julia_money = 400 
-if jennifer_money > julia_money:
-    print('Jennifer, great job saving money') 
-else:
-    print('Julia, do you need advice in sacing money?')
+salary = 5700
+vacation_days= 23
+
+if salary > 5000 and vacation_days > 40:
+    print ("I will take this job.")
+else: 
+    print("Hmm, must be more jobs on the market.")
